@@ -1,8 +1,31 @@
 /*=============== SHOW MENU ===============*/
-
+const navMenu = document.getElementById('nav-menu'),
+    navToggle = document.getElementById('nav-toggle'), /* html ka nav-menu ,nav-toggle link kiya hai */
+    navClose = document.getElementById('nav-close')
+    
+    /* Menu show  also here */
+if(navToggle){
+    navToggle.addEventListener('click', () =>{
+      navMenu.classList.add('show-menu')
+    })
+}    
+    
+/* Menu hidden */ /* menu option hidden or reopen ke liye hai */
+if(navClose){
+    navClose.addEventListener('click', () =>{
+         navMenu. classList.remove('show-menu') /* menu option ko close kar ne ke liye navclose use kiya hau */
+    })
+}
 
 /*=============== REMOVE MENU MOBILE ===============*/
+const navLink = document.querySelectorAll('.nav__link') /* nav__link add kiya hai html se option pe click karenge to same page par redirect karega */
 
+const linkAction = () =>{
+     const navMenu = document.getElementById('nav-menu')
+     // When we click on each nav __ link, we remove the show-menu cl
+     navMenu.classList.remove('show-menu')
+}
+navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*=============== ADD SHADOW HEADER ===============*/
 
