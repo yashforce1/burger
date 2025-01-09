@@ -437,7 +437,7 @@ width : 60%;
 }
 .contact__title{
   font-size: var(--h2-font-size);
-  margiin-bottom: .75rem;
+  margin-bottom: .75rem;
 }
 .contact__social{
   display: flex;
@@ -456,7 +456,7 @@ width : 60%;
   transition: transform .4s;
 }
 .contact__social a:hover{
-  tranform: translateY(-25rem);
+  transform: translateY(-25rem);
 }
 .contact__info{
   font-style:normal;
@@ -480,7 +480,7 @@ width : 60%;
 .contact__sticker-2{
   width: 30px;
   right:3rem;
-  botton: 12rem
+  bottom: 12rem
 }
 
 /*=============== FOOTER ===============*/
