@@ -434,7 +434,7 @@ width : 60%;
   right:0;
   width:120px;
   margin:0 auto;
-  filetr: var(--shadow-small-img);
+  filter: var(--shadow-small-img);
   transition: transform .4s;
 }
 
