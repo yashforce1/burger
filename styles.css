@@ -148,7 +148,7 @@ img {
         width: 20px;
     }
 
-    .nav __ logo div{
+    .nav__logo div{
         background-color: var(--first-color);
         padding: 6px;
         border-radius: .5rem;
