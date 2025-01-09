@@ -417,11 +417,12 @@ width : 60%;
 /*=============== CONTACT ===============*/
 .contact__container{
   position: relative;
-  background color:var(--second-color);
+  background-color:var(--second-color);
   padding-top: 3.5rem;
   border-radius:3 rem;
   overflow:hidden;
 }
+
 .contact__content{
   row-gap:3rem;
 }
