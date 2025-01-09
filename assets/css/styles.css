@@ -446,7 +446,7 @@ width : 60%;
 }
 .contact__social a{
   width:32px;
-  height: 32 px;
+  height: 32px;
   background-color: var(--first-color);
   color: var(--second-color);
   font-size: 1.5rem;
